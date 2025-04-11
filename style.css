@@ -60,12 +60,20 @@ section {
 }
 
 #home {
-    background-image: url("hero.png")
+    background-image: url("hero.png");
+    background-position: center;
+    background-size: cover;
 }
 
 #home h1 {
     font-size: 3em;
     color: #00c6ff;
+}
+
+#about {
+    background-image: url("about.png");
+    background-position: center;
+    background-size: cover;
 }
 
 #about .card {
@@ -85,6 +93,8 @@ section {
 
 #skills {
     background-image: url("skills.png");
+    background-position: center;
+    background-size: cover;
 }
 
 #skills .grid {
@@ -112,6 +122,12 @@ section {
 
 .skill-box:hover {
     background: rgba(0, 198, 255, 0.2);
+}
+
+#contact {
+    background-image: url("contact.png");
+    background-position: center;
+    background-size: cover;
 }
 
 #contact form {
